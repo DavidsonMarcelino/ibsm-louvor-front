@@ -9,8 +9,20 @@ export default [
     icon: 'FileTextIcon',
     children: [
       {
+        title: 'Bandas',
+        route: 'list-bandas',
+      },
+      {
         title: 'Instrumentos',
         route: 'list-instrumentos',
+      },
+      {
+        title: 'Músicas',
+        route: 'list-musicas',
+      },
+      {
+        title: 'Partituras',
+        route: 'list-partituras',
       },
       {
         title: 'Usuários',

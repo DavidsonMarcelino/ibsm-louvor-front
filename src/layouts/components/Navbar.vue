@@ -115,6 +115,10 @@ export default {
           localStorage.removeItem("token");
 
           self.$router.push({ path: "/login" });
+
+          setTimeout(() => {
+            location.reload();
+          }, 500)
         })
         .catch((error) => {
           this.errors = error.response.data.errors;

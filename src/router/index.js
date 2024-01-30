@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
+import Banda from './bandas'
+import Paritura from './partituras'
+import Musica from './musicas'
 import Instrumento from './instrumentos'
 import User from './user'
 
@@ -13,6 +16,9 @@ const router = new VueRouter({
     return { x: 0, y: 0 }
   },
   routes: [
+    Banda,
+    Paritura,
+    Musica,
     Instrumento,
     User,
   
